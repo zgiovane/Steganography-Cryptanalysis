@@ -10,8 +10,6 @@ This project aims to provide hands-on experience with steganography, cryptanalys
 - [Project Structure](#project-structure)
   - [Part 1 - Steganography](#part-1---steganography)
   - [Part 2 - Cryptanalysis](#part-2---cryptanalysis)
-- [Evaluation](#evaluation)
-- [Submission Instructions](#submission-instructions)
 
 ## Purpose
 
@@ -22,7 +20,7 @@ The goal of this project is to apply cryptographic concepts in practical ways, i
 
 ## Objectives
 
-By completing this project, students will:
+The objectives of this project are as follows:
 - Apply number theory to solve real-world security problems.
 - Utilize algorithms for random number generation, hashing, and encryption.
 - Analyze encryption and hash algorithms to identify potential weaknesses and design attacks.
@@ -45,11 +43,11 @@ By completing this project, students will:
 1. **Analyze PRNG Seed Weakness**: Use a known range of possible seeds based on a timestamp to determine the key used for encryption.
 2. **Decrypt Encrypted Messages**: Discover the PRNG seed value used to generate the encryption key by matching known plaintext and ciphertext.
 
-- For **Part 1**, run your program using:
+- For **Part 1**, run the program using a 12 byte input like the example below:
   ```
   dotnet run "B1 FF FF CC 98 80 09 EA 04 48 7E C9"
   ```
-- For **Part 2**, run your program using:
+- For **Part 2**, run the program using a plaintext and ciphertext as command line arguments:
   ```
   dotnet run “Hello World” “RgdIKNgHn2Wg7jXwAykTlA==”
   ```
