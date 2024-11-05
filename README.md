@@ -54,6 +54,6 @@ The objectives of this project are as follows:
   ```
   dotnet run “Hello World” “RgdIKNgHn2Wg7jXwAykTlA==”
   ```
-    - Example Output
+    - Example Output 
   ![](https://github.com/zgiovane/Steganography-Cryptanalysis/blob/main/ExampleOutput/ExampleCryptanalysisOutput.png)
 
