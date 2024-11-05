@@ -47,6 +47,9 @@ The objectives of this project are as follows:
   ```
   dotnet run "B1 FF FF CC 98 80 09 EA 04 48 7E C9"
   ```
+- Example Output
+  ![](https://github.com/zgiovane/Steganography-Cryptanalysis/blob/main/ExampleOutput/ExampleOutput.png)
+  
 - For **Part 2**, run the program using a plaintext and ciphertext as command line arguments:
   ```
   dotnet run “Hello World” “RgdIKNgHn2Wg7jXwAykTlA==”
